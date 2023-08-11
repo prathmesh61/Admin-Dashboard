@@ -26,11 +26,8 @@
           border-radius: 50%;
           object-fit: cover;
 
-          @include xxl {
+          @include xl {
             display: none;
-          }
-          @include lg {
-            display: block;
           }
         }
 

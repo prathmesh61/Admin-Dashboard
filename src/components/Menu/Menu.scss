@@ -1,4 +1,6 @@
 @import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+
 .menu {
   .item {
     display: flex;
@@ -9,6 +11,9 @@
       font-size: 12px;
       font-weight: 200;
       color: $main-color;
+      @include lg {
+        display: none;
+      }
     }
     .listItem {
       display: flex;
@@ -16,7 +21,11 @@
       gap: 10px;
       padding: 10px;
       border-radius: 5px;
-
+      span {
+        @include lg {
+          display: none;
+        }
+      }
       &:hover {
         background-color: $soft-bg;
       }

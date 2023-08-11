@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="logo" />
+        <img src="log.svg" alt="logo" />
         <span>ReactFacts</span>
       </div>
       <div className="icons">
